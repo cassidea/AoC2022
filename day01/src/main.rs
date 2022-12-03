@@ -12,7 +12,7 @@ fn solve(content: &str) -> (i32, i32) {
 }
 
 fn main() {
-    let content = fs::read_to_string("input.txt").expect("File not found!");
+    let content = fs::read_to_string("day01/input.txt").expect("File not found!");
     let result_part1 = solve(&content);
     println!("Result part1: {}", result_part1.0);
     println!("Part1 66186 is correct");

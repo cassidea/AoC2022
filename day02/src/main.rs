@@ -115,7 +115,7 @@ fn solve_part_2<T: AsRef<str>>(lines: &[T]) -> i32 {
 }
 
 fn main() {
-    let lines = common::get_lines_from_file("/home/cassidea/IdeaProjects/RustStuff/AoC2022/day02/input.txt");
+    let lines = common::get_lines_from_file("day02/input.txt");
     let result1 = solve_part_1(&lines);
     println!("result part1 is: {}", result1);
     println!("correct is 14069");
